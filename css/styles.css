@@ -33,10 +33,10 @@ p#note{
   width: 350px;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
-p#index31, p#index32, #index33{
+#index31, #index32, #index33{
   padding: 5px;
   border: solid 2px #4981CE;
-  margin-left: 20px;
+  margin: 20px;
   text-align: center;
   width: 530px;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
