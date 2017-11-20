@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+    <title>Statistics page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="panel panel-default">
+        <img src="img/logoTruFit.png" alt="trufitLogo">
+
+          <hr/>
+          <div class="subintro"> <strong>It is best to full in this form as accurately as possible
+            for the sake of programming efficacy.
+            </br>All information will remain private.
+            </strong>
+            </div>
+          <hr/>
+          </div>
+
+
+          <div class="panel panel-body">
+            <form id="form-group">
+
+              <div id="basic-info">
+                <label for="applicantname">NAME:</label>
+                <input id="name" class="form-control" type="text" placeholder="Click to add.."/>
+                <label for="applicantage">AGE:</label>
+                <input id="age" class="form-control" type="text" placeholder="Click to add.."/>
+                <label for="weight">Weight:</label>
+                <input id="weight" class="form-control" type="text" placeholder="Click to add.."/>
+              </div>
+
+
+              <div id="gender">
+                 <label for="gender">Gender:</label>
+                    <label>Male</label>
+                    <input name="gender" type="checkbox" value="male">
+                    <label>Female</label>
+                    <input name="gender" type="checkbox" value="female">
+              </div>
+
+                <div id="frequency">
+                   <label for="frequency">Exercise Frequency:</label>
+
+                      <label>0nce per week</label>
+                      <input name="frequency" type="checkbox" value="twice">
+                      <label>Twice per week</label>
+                      <input name="frequency" type="checkbox" value="threetimes">
+                      <label>Three times per week</label>
+                      <input name="frequency" type="checkbox" value="4times">
+                      <label>Four times per week</label>
+                      <input name="frequency" type="checkbox" value="5times">
+                      <label>Every day</label>
+                      <input name="frequency" type="checkbox" value="6times">
+               </div>
+
+              <div id="intensity">
+                 <label for="intensity">Exercise Intensity:</label>
+                   <label>Low</label>
+                   <input name="intensity" type="checkbox" value="lowIntensity">
+                   <label>Moderate</label>
+                   <input name="intensity" type="checkbox" value="moderateIntensity">
+                   <label>High</label>
+                   <input name="intensity" type="checkbox" value="hightIntensity">
+              </div>
+
+              <div id="fitnesslevel">
+                 <label for="fitnessLevel">Fitness level:</label>
+                     <label>Low</label>
+                     <input name="fitnessLevel" type="checkbox" value="lowFitness">
+                     <label>Moderate</label>
+                     <input name="fitnessLevel" type="checkbox" value="moderateFitness">
+                     <label>High</label>
+                     <input name="fitnessLevel" type="checkbox" value="highFitness">
+              </div>
+
+             <div id="exercisetype">
+               <label for="type"> Choose the type of exercise</br> you perform throughout the week:</label>
+                    </br>
+                    <input name="exerciseType" type="checkbox" value="walking"> Walking </br>
+                    <input name="exerciseType" type="checkbox" value="runningLong"> Running(long) </br>
+                    <input name="exerciseType" type="checkbox" value="springtingShort"> Sprinting(short) </br>
+                    <input name="exerciseType" type="checkbox" value="bodybuilding"> Bodybuilding </br>
+                    <input name="exerciseType" type="checkbox" value="marathonRunning"> Marathon runner </br>
+                    <input name="exerciseType" type="checkbox" value="martialArts"> Martial arts </br>
+                    <input name="exerciseType" type="checkbox" value="triathlete"> Triathlete </br>
+                    <input name="exerciseType" type="checkbox" value="cycling"> Cycling </br>
+                    <input name="exerciseType" type="checkbox" value="yoga"> Yoga </br>
+                    <input name="exerciseType" type="checkbox" value="calisthenics"> Calisthenics </br>
+                    <input name="exerciseType" type="checkbox" value="crossfit"> Crossfit </br>
+                    <input name="exerciseType" type="checkbox" value="hiking"> Hiking </br>
+                    <input name="exerciseType" type="checkbox" value="gymnastics"> Gymnastics </br>
+                    <input name="exerciseType" type="checkbox" value="olympicLifting"> Olympic lifting </br>
+                    <input name="exerciseType" type="checkbox" value="powerLifting"> Powerlifting </br>
+                    <input name="exerciseType" type="checkbox" value="specificSport"> Specific sport (Mention Below)</br>
+                    <input name="exerciseType" type="checkbox" value="pilates"> Pilates </br>
+                    <input id="exerciseTypeMore" type="textbox" class="form-control" placeholder="Other..">
+               </div>
+
+               <div id="history">
+                  <label for="history"><p> Write more about your </br>
+                         history and health here:</p></label>
+                  <input class="form-control" type="text" placeholder="Write..">
+               </div>
+
+              <div id="bodytypes">
+                <h3>Choose Bodytype</h3>
+                <img id="ectomorphimg" src="img/ectomorph.png">
+                <img id="mesomorphimg" src="img/mesomorph.png"/>
+                <img id="endomorphimg" src="img/endomorph.png"/>
+              </br>
+                <input id="ecto" type="checkbox"></input>
+                <input id="endo" type="checkbox"></input>
+                <input id="meso" type="checkbox"></input>
+              </div>
+
+              <button id="emailButton" type="submit" class="btn btn-info">Submit to trainlikemitch@gmail.com</button>
+           </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
